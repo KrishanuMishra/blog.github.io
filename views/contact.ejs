@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") -%>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <h1>Contact Me</h1>
+    <p><%= contactContent %></p>
+    <form action="https://formsubmit.co/940f9397ed38bb6bbab9bfe7b9529b1f" method="post" >
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea class="form-control" placeholder="Your Message Here" id="exampleFormControlTextarea1" rows="6"></textarea>
+          </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    <div class="group">
+            <a href="https://www.linkedin.com/in/krishanu-mishra-4a64b1212/" class="btn fa fa-linkedin fa-2x"></a>
+            <a href="https://www.instagram.com/krishanu_2314/?igshid=YmMyMTA2M2Y=" class="btn w-34  fa fa-instagram fa-2x"></a>
+    </div>
+    <%- include("partials/footer.ejs") -%>
